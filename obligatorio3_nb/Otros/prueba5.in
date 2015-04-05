@@ -1,0 +1,114 @@
+altaPais pais AMERICA Espaniol
+altaFederacion pais fede01 dscr 1 1 1901
+altaFederacion pais fede10 dscr 1 1 1901
+altaCampeonatoFederacion pais fede01 c09P dscr 1
+altaCampeonatoFederacion pais fede01 c18P dscr 2
+altaCampeonatoFederacion pais fede01 c36P dscr 4
+altaCampeonatoFederacion pais fede01 c27E dscr 13
+altaCampeonatoFederacion pais fede01 c45E dscr 15
+altaCampeonatoFederacion pais fede10 c09P dscr 20
+altaDeportista pais 10000 n001 a001 21
+altaDeportista pais 10100 n002 a001 21
+altaDeportista pais 10200 n003 a001 21
+altaDeportista pais 10300 n004 a001 21
+altaDeportista pais 10400 n005 a001 21
+altaDeportista pais 10500 n006 a001 21
+altaDeportista pais 10600 n007 a001 21
+altaDeportista pais 10700 n008 a001 21
+altaDeportista pais 10800 n009 a001 21
+altaDeportista pais 10900 n010 a001 21
+altaDeportista pais 11000 n011 a001 21
+altaDeportista pais 11100 n012 a001 21
+altaDeportista pais 11200 n013 a001 21
+altaDeportista pais 11300 n014 a001 21
+altaDeportista pais 11400 n015 a001 21
+altaDeportista pais 11500 n016 a001 21
+altaDeportista pais 11600 n017 a001 21
+altaDeportista pais 11700 n018 a001 21
+altaDeportista pais 11800 n019 a001 21
+altaDeportista pais 11900 n020 a001 21
+altaDeportista pais 12000 n021 a001 21
+altaDeportista pais 12100 n022 a001 21
+altaDeportista pais 12200 n023 a001 21
+altaDeportista pais 12300 n024 a001 21
+altaDeportista pais 12400 n025 a001 21
+altaDeportista pais 12500 n026 a001 21
+altaDeportista pais 12600 n027 a001 21
+altaDeportista pais 12700 n028 a001 21
+altaDeportista pais 12800 n029 a001 21
+altaDeportista pais 12900 n030 a001 21
+altaDeportista pais 20000 n101 a001 21
+altaDeportista pais 20100 n102 a001 21
+altaDeportista pais 20200 n103 a001 21
+altaDeportista pais 20300 n104 a001 21
+altaDeportista pais 20400 n105 a001 21
+altaDeportista pais 20500 n106 a001 21
+altaDeportista pais 20600 n107 a001 21
+altaDeportista pais 20700 n108 a001 21
+altaDeportista pais 20800 n109 a001 21
+altaDeportista pais 20900 n110 a001 21
+altaDeportista pais 21000 n111 a001 21
+altaDeportista pais 21100 n112 a001 21
+altaDeportista pais 21200 n113 a001 21
+altaDeportista pais 21300 n114 a001 21
+altaDeportista pais 21400 n115 a001 21
+altaDeportista pais 21500 n116 a001 21
+altaDeportista pais 21600 n117 a001 21
+altaDeportista pais 21700 n118 a001 21
+altaDeportista pais 21800 n119 a001 21
+altaDeportista pais 21900 n120 a001 21
+altaDeportista pais 22000 n121 a001 21
+altaDeportista pais 22100 n122 a001 21
+altaDeportista pais 22200 n123 a001 21
+altaDeportista pais 22300 n124 a001 21
+altaDeportista pais 22400 n125 a001 21
+altaDeportista pais 22500 n126 a001 21
+altaDeportista pais 22600 n127 a001 21
+altaDeportista pais 22700 n128 a001 21
+altaDeportista pais 22800 n129 a001 21
+altaDeportista pais 22900 n130 a001 21
+inscribirDeportistaCampeonato pais fede01 c09P 10000 11 25
+inscribirDeportistaCampeonato pais fede01 c09P 10000 12 25
+inscribirDeportistaCampeonato pais fede01 c18P 10000 12 25
+inscribirDeportistaCampeonato pais fede01 c18P 10100 12 25
+inscribirDeportistaCampeonato pais fede01 c18P 10200 12 25
+inscribirDeportistaCampeonato pais fede01 c18P 10300 12 25
+inscribirDeportistaCampeonato pais fede01 c18P 10400 12 25
+inscribirDeportistaCampeonato pais fede01 c18P 10500 12 25
+inscribirDeportistaCampeonato pais fede01 c18P 10600 12 25
+inscribirDeportistaCampeonato pais fede01 c18P 10700 12 25
+inscribirDeportistaCampeonato pais fede01 c18P 10800 12 25
+inscribirDeportistaCampeonato pais fede01 c18P 10900 12 25
+inscribirDeportistaCampeonato pais fede01 c36P 11000 12 25
+inscribirDeportistaCampeonato pais fede01 c36P 11100 12 25
+inscribirDeportistaCampeonato pais fede01 c36P 11200 12 25
+inscribirDeportistaCampeonato pais fede01 c36P 11300 12 25
+inscribirDeportistaCampeonato pais fede01 c36P 11400 12 25
+inscribirDeportistaCampeonato pais fede01 c36P 11500 12 25
+inscribirDeportistaCampeonato pais fede01 c36P 11600 12 25
+inscribirDeportistaCampeonato pais fede01 c36P 11700 12 25
+inscribirDeportistaCampeonato pais fede01 c36P 11800 12 25
+inscribirDeportistaCampeonato pais fede01 c36P 11900 12 25
+inscribirDeportistaCampeonato pais fede01 c27E 20000 12 25
+inscribirDeportistaCampeonato pais fede01 c27E 20100 12 25
+inscribirDeportistaCampeonato pais fede01 c27E 20200 12 25
+inscribirDeportistaCampeonato pais fede01 c27E 20300 12 25
+inscribirDeportistaCampeonato pais fede01 c27E 20400 12 25
+inscribirDeportistaCampeonato pais fede01 c27E 20500 12 25
+inscribirDeportistaCampeonato pais fede01 c27E 20600 12 25
+inscribirDeportistaCampeonato pais fede01 c27E 20700 12 25
+inscribirDeportistaCampeonato pais fede01 c27E 20800 12 25
+inscribirDeportistaCampeonato pais fede01 c27E 20900 12 25
+inscribirDeportistaCampeonato pais fede01 c45E 21000 12 25
+inscribirDeportistaCampeonato pais fede01 c45E 21100 12 25
+inscribirDeportistaCampeonato pais fede01 c45E 21200 12 25
+inscribirDeportistaCampeonato pais fede01 c45E 21300 12 25
+inscribirDeportistaCampeonato pais fede01 c45E 21400 12 25
+inscribirDeportistaCampeonato pais fede01 c45E 21500 12 25
+inscribirDeportistaCampeonato pais fede01 c45E 21600 12 25
+inscribirDeportistaCampeonato pais fede01 c45E 21700 12 25
+inscribirDeportistaCampeonato pais fede01 c45E 21800 12 25
+inscribirDeportistaCampeonato pais fede01 c45E 21900 12 25
+imprimirFederados pais fede01
+imprimirFederados pais fede10
+salir

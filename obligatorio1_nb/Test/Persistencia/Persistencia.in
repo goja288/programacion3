@@ -1,0 +1,36 @@
+abbAgregar 5
+abbAgregar 2
+abbAgregar 8
+pilaAgregar 5
+pilaAgregar 2
+pilaAgregar 8
+colaAgregar 5
+colaAgregar 2
+colaAgregar 8
+guardar Persistencia
+abbAgregar 11
+abbAgregar 0
+pilaAgregar 10
+pilaAgregar 13
+colaAgregar 9
+colaAgregar -3
+abbMaximo
+pilaObtener
+colaObtener
+abbMaximo
+pilaObtener
+colaObtener
+abbMaximo
+pilaObtener
+colaObtener
+cargar Persistencia
+abbMaximo
+pilaObtener
+colaObtener
+abbMaximo
+pilaObtener
+colaObtener
+abbMaximo
+pilaObtener
+colaObtener
+salir

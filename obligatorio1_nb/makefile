@@ -1,0 +1,28 @@
+CC= g++
+WARNING = -Wall -Werror
+LIB=
+
+#todo: principal
+todo: principal.exe
+
+ABB.o:	ABB.cpp ABB.h 
+	$(CC) -c ABB.cpp $(WARNING)
+Cola.o: Cola.cpp Cola.h 
+	$(CC) -c Cola.cpp $(WARNING)
+Pila.o: Pila.cpp Pila.h 
+	$(CC) -c Pila.cpp $(WARNING)
+principal.o: principal.cpp ABB.h Cola.h Pila.h
+	$(CC) -c principal.cpp $(WARNING)
+#principal: principal.o ABB.o Cola.o Pila.o 
+#	$(CC) principal.o ABB.o Cola.o Pila.o -o principal $(LIB)
+
+principal.exe: principal.o ABB.o Cola.o Pila.o 
+	$(CC) principal.o ABB.o Cola.o Pila.o -o principal.exe $(LIB)
+
+clean:
+	rm ABB.o
+	rm Cola.o
+	rm Pila.o
+	rm principal.o
+	rm principal.exe
+	

@@ -1,0 +1,48 @@
+abbAgregar 50
+abbAgregar 25
+colaAgregar 2
+colaAgregar 3
+colaAgregar 4
+abbAgregar 75
+comando no reconocido
+abbAgregar 40
+pilaAgregar -6
+pilaAgregar -5
+pilaAgregar -4
+abbAgregar 12
+abbAgregar 7
+segundo comando no reconocido
+abbAgregar 8
+abbAgregar 68
+abbAgregar 37
+abbAgregar 100
+pilaAgregar -1 
+hola
+pilaAgregar 0
+colaAgregar 10
+colaAgregar 11
+colaAgregar 12
+colaAgregar 13
+pilaAgregar 1
+abbAgregar 98
+abbAgregar -1
+abbAgregar -20
+abbAgregar 0
+guardar prueba1_1
+abbMinimo
+abbMinimo
+pilaObtener
+pilaObtener
+abbMaximo
+abbMaximo
+colaObtener
+colaObtener
+abbMaximo
+pilaObtener
+pilaObtener
+colaObtener
+colaObtener
+guardar prueba1_2
+cargar prueba1_1
+guardar prueba1_2
+salir

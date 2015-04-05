@@ -1,0 +1,27 @@
+tarea4.exe lee los datos del cliente desde la entrada estándar, 
+invoca 'formarParejas' de 'buscoamor' y 
+pasa el resultado a 'controlar_solucion' de 'utils'.
+
+
+El formato de la entrada es:
+cantC1 cantC2 criterio cabalas M Lm1 LM1 Lm2 LM2
+cliente1.1
+...
+cliente1.cantC1
+cliente2.1
+...
+cliente2.cantC2
+
+donde 'cabalas' es 'true' o 'false',
+y la línea de cada cliente es:
+edad P_A P_I P_S P_H P_O B_A B_I B_S B_H B_O
+
+Se asume que la sintaxis de la entrada es correcta. 
+Las líneas en blanco se ignoran.
+
+En la salida se imprime la cantidad de parejas y el Q de la solución, 
+si esta es válida, 
+o, en el otro caso, se informa por que no lo es.
+
+Para ver el listado de las parejas formadas hay que descomentar la línea 203
+en 'tarea4.cpp'.

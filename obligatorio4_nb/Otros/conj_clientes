@@ -1,0 +1,23 @@
+//int x_id[cantCX]  = {0, 1, 2, 3, 4, 5, 6};
+int x_apariencia[cantCX]   = {0, 4, 2, 9, 7, 6, 0};
+int x_inteligencia[cantCX] = {3, 9, 7, 3, 1, 0, 4};
+int x_simpatia[cantCX]     = {9, 5, 2, 3, 1, 8, 5};
+ColorC x_pelo[cantCX] = {CASTANO, RUBIO, MOROCHO, ROJO, MOROCHO, RUBIO};
+ColorO x_ojos[cantCX] = {MARRON, VERDE, AZUL, NEGRO, GRIS, MARRON, GRIS};
+int x_aparienciab[cantCX]   = {0, 4, 2, 9, 7, 6, 0};
+int x_inteligenciab[cantCX] = {3, 9, 7, 3, 1, 0, 4};
+int x_simpatiab[cantCX]     = {9, 5, 2, 3, 1, 8, 5};
+ColorC x_pelob[cantCX] = {CASTANO, RUBIO, MOROCHO, ROJO, MOROCHO, RUBIO};
+ColorO x_ojosb[cantCX] = {MARRON, VERDE, AZUL, NEGRO, GRIS, MARRON, GRIS};
+
+//int y_id[cantCY]  = {0, 1, 2, 3, 4, 5};
+int y_apariencia[cantCY]   = {0, 4, 2, 9, 7, 6};
+int y_inteligencia[cantCY] = {3, 9, 7, 3, 1, 0};
+int y_simpatia[cantCY]     = {9, 5, 2, 3, 1, 8};
+ColorC y_pelo[cantCY] = {CASTANO, RUBIO, MOROCHO, ROJO, MOROCHO};
+ColorO y_ojos[cantCY] = {MARRON, VERDE, AZUL, NEGRO, GRIS, MARRON};
+int y_aparienciab[cantCY]   = {0, 4, 2, 9, 7, 6};
+int y_inteligenciab[cantCY] = {3, 9, 7, 3, 1, 0};
+int y_simpatiab[cantCY]     = {9, 5, 2, 3, 1, 8};
+ColorC y_pelob[cantCY] = {CASTANO, RUBIO, MOROCHO, ROJO, MOROCHO};
+ColorO y_ojosb[cantCY] = {MARRON, VERDE, AZUL, NEGRO, GRIS, MARRON};

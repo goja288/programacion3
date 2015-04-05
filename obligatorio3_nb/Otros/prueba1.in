@@ -1,0 +1,27 @@
+obtenerCantidadPaises
+altaPais Uruguay AMERICA Espaniol
+altaFederacion Uruguay Fubb "Federacion uruguaya de basketball" 1 3 1915
+altaFederacion Uruguay Fudepyh "Federacion uruguaya de patin y hockey" 27 6 1924
+altaCampeonatoFederacion Uruguay Fubb Metropolitano anual 2
+altaDeportista Uruguay 10000 Juan Perez 21
+altaDeportista Uruguay 12222 Mariela Vazquez 27
+altaDeportista Uruguay 17777 Agustina Almeida 18
+inscribirDeportistaCampeonato Uruguay Fubb Metropolitano 17777 10 25
+inscribirDeportistaCampeonato Uruguay Fubb Metropolitano 10000 10 25
+inscribirDeportistaCampeonato Uruguay Fubb Metropolitano 12222 10 25
+existeCampeonatoFederacion Uruguay Fubb Metropolitano
+existeCampeonatoFederacion Uruguay Fudepyh Metropolitano
+obtenerCantidadPaises
+altaPais Australia OCEANIA Ingles
+obtenerCantidadPaises
+imprimirFederaciones Uruguay
+imprimirFederaciones Australia
+imprimirFederados Uruguay Fubb
+imprimirFederados Uruguay Fudepyh
+altaCampeonatoFederacion Uruguay Fudepyh Nacional anual 2
+inscribirDeportistaCampeonato Uruguay Fudepyh Nacional 10000 12 25
+altaDeportista Uruguay 25555 Jose Gomez 21
+imprimirCampeonatosDeportista 10000
+imprimirCampeonatosDeportista 12222
+imprimirCampeonatosDeportista 25555
+salir

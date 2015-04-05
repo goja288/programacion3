@@ -1,0 +1,25 @@
+CC= g++
+WARNING = -Wall -Werror
+LIB=
+
+todo: prueba3
+
+Estrategias.o:	Estrategias.cpp Estrategias.h 
+	$(CC) -c Estrategias.cpp $(WARNING)
+Mundo.o: Mundo.cpp Mundo.h 
+	$(CC) -c Mundo.cpp $(WARNING)
+Territorio.o: Territorio.cpp Territorio.h 
+	$(CC) -c Territorio.cpp $(WARNING)
+
+prueba3.o: prueba3.cpp Estrategias.h Mundo.h Territorio.h ListaEnteros.h ColaEnteros.h
+	$(CC) -c prueba3.cpp $(WARNING)
+prueba3: prueba3.o Estrategias.o Mundo.o Territorio.o ListaEnteros.o ColaEnteros.o utils.o 
+	$(CC) prueba3.o Estrategias.o Mundo.o Territorio.o ListaEnteros.o ColaEnteros.o utils.o -o prueba3 $(LIB)
+
+
+clean:
+	rm Estrategias.o
+	rm Mundo.o
+	rm Territorio.o
+	rm prueba3.o
+	rm prueba3	

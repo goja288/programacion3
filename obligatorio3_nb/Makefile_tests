@@ -1,0 +1,17 @@
+CC= g++
+WARNING = -Wall -Werror -g
+LIB=
+
+todo: tarea3
+
+Estructura.o:	Estructura.cpp Estructura.h 
+	$(CC) -c Estructura.cpp $(WARNING)
+tarea3.o: tarea3.cpp Estructura.h
+	$(CC) -c tarea3.cpp $(WARNING)
+tarea3: tarea3.o Estructura.o 
+	$(CC) tarea3.o Estructura.o  -o tarea3 $(LIB)
+
+clean:
+	rm Estructura.o
+	rm tarea3.o
+	rm tarea3	

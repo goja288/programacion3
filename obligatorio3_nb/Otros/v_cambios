@@ -1,0 +1,166 @@
+[gjmf14@f14 p3ob3]$ valgrind --leak-check=yes ./tarea3 < Otros/prueba1.in
+==3567== Memcheck, a memory error detector
+==3567== Copyright (C) 2002-2009, and GNU GPL'd, by Julian Seward et al.
+==3567== Using Valgrind-3.5.0 and LibVEX; rerun with -h for copyright info
+==3567== Command: ./tarea3
+==3567==
+0
+Existe
+No existe
+1
+2
+Fubb - Federacion uruguaya de basketball - 1/3/1915
+Fudepyh - Federacion uruguaya de patin y hockey - 27/6/1924
+---Federados---
+17777 - Agustina - Almeida - 18
+12222 - Mariela - Vazquez - 27
+10000 - Juan - Perez - 21
+------
+---Federados---
+------
+Fubb - Metropolitano - anual - 2
+Fudepyh - Nacional - anual - 2
+Fubb - Metropolitano - anual - 2
+==3567== Invalid free() / delete / delete[]
+==3567==    at 0x4A04B15: operator delete[](void*) (vg_replace_malloc.c:368)
+==3567==    by 0x4031A3: destruirFederacion(Federacion*&) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x4033E2: destruirListaFederaciones(ListaFederaciones*&) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x40366B: destruirNodoHashFederaciones(NodoHashFederaciones*&) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x4032AE: destruirPais(Pais*&) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x4034D8: destruirListaPaises(ListaPaises*&) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x4036F1: destruirNodoHashPaises(NodoHashPaises*&) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x401EFD: destruirCOI(Estructura*) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x401985: main (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==  Address 0x4c50868 is 200 bytes inside a block of size 1,800 alloc'd
+==3567==    at 0x4A059DC: operator new(unsigned long) (vg_replace_malloc.c:220)
+==3567==    by 0x4021DA: crearFederacion(char const*, char const*, int, int, int) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x401AF9: altaFederacion(char const*, char const*, char const*, int, int, int, Estructura*) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x401549: main (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==
+==3567== Invalid free() / delete / delete[]
+==3567==    at 0x4A04B15: operator delete[](void*) (vg_replace_malloc.c:368)
+==3567==    by 0x403215: destruirFederacion(Federacion*&) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x4033E2: destruirListaFederaciones(ListaFederaciones*&) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x40366B: destruirNodoHashFederaciones(NodoHashFederaciones*&) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x4032AE: destruirPais(Pais*&) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x4034D8: destruirListaPaises(ListaPaises*&) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x4036F1: destruirNodoHashPaises(NodoHashPaises*&) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x401EFD: destruirCOI(Estructura*) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x401985: main (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==  Address 0x4c507c8 is 40 bytes inside a block of size 1,800 alloc'd
+==3567==    at 0x4A059DC: operator new(unsigned long) (vg_replace_malloc.c:220)
+==3567==    by 0x4021DA: crearFederacion(char const*, char const*, int, int, int) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x401AF9: altaFederacion(char const*, char const*, char const*, int, int, int, Estructura*) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x401549: main (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==
+==3567== Invalid free() / delete / delete[]
+==3567==    at 0x4A04B15: operator delete[](void*) (vg_replace_malloc.c:368)
+==3567==    by 0x4032E0: destruirPais(Pais*&) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x4034D8: destruirListaPaises(ListaPaises*&) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x4036F1: destruirNodoHashPaises(NodoHashPaises*&) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x401EFD: destruirCOI(Estructura*) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x401985: main (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==  Address 0x4c4f750 is 32 bytes inside a block of size 432 alloc'd
+==3567==    at 0x4A059DC: operator new(unsigned long) (vg_replace_malloc.c:220)
+==3567==    by 0x401FF1: crearPais(char const*, Continente, char const*) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x401A8E: altaPais(char const*, Continente, char const*, Estructura*) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x401496: main (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==
+==3567== Invalid free() / delete / delete[]
+==3567==    at 0x4A04B15: operator delete[](void*) (vg_replace_malloc.c:368)
+==3567==    by 0x40309A: destruirDeportista(Deportista*&) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x40338C: destruirListaDeportistas(ListaDeportistas*&) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x403628: destruirNodoHashDeportistas(NodoHashDeportistas*&) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x401F41: destruirCOI(Estructura*) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x401985: main (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==  Address 0x4c525d0 is 32 bytes inside a block of size 3,008 alloc'd
+==3567==    at 0x4A059DC: operator new(unsigned long) (vg_replace_malloc.c:220)
+==3567==    by 0x4020E1: crearDeportista(int, char const*, char const*, int) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x401C1D: altaDeportista(char const*, int, char const*, char const*, int, Estructura*) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x401661: main (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==
+==3567== Invalid free() / delete / delete[]
+==3567==    at 0x4A04B15: operator delete[](void*) (vg_replace_malloc.c:368)
+==3567==    by 0x4030CC: destruirDeportista(Deportista*&) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x40338C: destruirListaDeportistas(ListaDeportistas*&) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x403628: destruirNodoHashDeportistas(NodoHashDeportistas*&) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x401F41: destruirCOI(Estructura*) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x401985: main (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==  Address 0x4c525d0 is 32 bytes inside a block of size 3,008 alloc'd
+==3567==    at 0x4A059DC: operator new(unsigned long) (vg_replace_malloc.c:220)
+==3567==    by 0x4020E1: crearDeportista(int, char const*, char const*, int) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x401C1D: altaDeportista(char const*, int, char const*, char const*, int, Estructura*) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x401661: main (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==
+==3567== Invalid free() / delete / delete[]
+==3567==    at 0x4A04B15: operator delete[](void*) (vg_replace_malloc.c:368)
+==3567==    by 0x401F7F: destruirCOI(Estructura*) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x401985: main (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==  Address 0x4c282c8 is 8 bytes inside a block of size 160,808 alloc'd
+==3567==    at 0x4A059DC: operator new(unsigned long) (vg_replace_malloc.c:220)
+==3567==    by 0x4019F1: crearCOI() (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x40135B: main (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==
+==3567== Invalid free() / delete / delete[]
+==3567==    at 0x4A04B15: operator delete[](void*) (vg_replace_malloc.c:368)
+==3567==    by 0x401FA0: destruirCOI(Estructura*) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x401985: main (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==  Address 0x4c285e8 is 808 bytes inside a block of size 160,808 alloc'd
+==3567==    at 0x4A059DC: operator new(unsigned long) (vg_replace_malloc.c:220)
+==3567==    by 0x4019F1: crearCOI() (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x40135B: main (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==
+[1][2][3][4][5]==3567==
+==3567== HEAP SUMMARY:
+==3567==     in use at exit: 3,875 bytes in 21 blocks
+==3567==   total heap usage: 95 allocs, 134 frees, 183,537 bytes allocated
+==3567==
+==3567== 18 bytes in 2 blocks are definitely lost in loss record 2 of 8
+==3567==    at 0x4A054F2: operator new[](unsigned long) (vg_replace_malloc.c:264)
+==3567==    by 0x4029F1: insertarHashPaises(Pais*, NodoHashPaises**) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x401AA9: altaPais(char const*, Continente, char const*, Estructura*) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x401496: main (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==
+==3567== 45 bytes in 3 blocks are definitely lost in loss record 3 of 8
+==3567==    at 0x4A054F2: operator new[](unsigned long) (vg_replace_malloc.c:264)
+==3567==    by 0x4038B6: IntToStr(int) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x402DE1: buscarHashDeportistas(int, NodoHashDeportistas**) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x401EAE: imprimirCampeonatosDeportista(Estructura*, int) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x4018C0: main (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==
+==3567== 60 bytes in 4 blocks are definitely lost in loss record 4 of 8
+==3567==    at 0x4A054F2: operator new[](unsigned long) (vg_replace_malloc.c:264)
+==3567==    by 0x4038B6: IntToStr(int) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x402711: insertarHashDeportistas(Deportista*, char const*, NodoHashDeportistas**) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x401C3F: altaDeportista(char const*, int, char const*, char const*, int, Estructura*) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x401661: main (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==
+==3567== 60 bytes in 4 blocks are definitely lost in loss record 5 of 8
+==3567==    at 0x4A054F2: operator new[](unsigned long) (vg_replace_malloc.c:264)
+==3567==    by 0x4038B6: IntToStr(int) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x402DE1: buscarHashDeportistas(int, NodoHashDeportistas**) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x401CB7: inscribirDeportistaCampeonato(char const*, char const*, char const*, int, int, int, Estructura*) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x401775: main (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==
+==3567== 60 bytes in 4 blocks are definitely lost in loss record 6 of 8
+==3567==    at 0x4A054F2: operator new[](unsigned long) (vg_replace_malloc.c:264)
+==3567==    by 0x4038B6: IntToStr(int) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x4027D9: insertarHashFederados(Deportista*, Federacion*) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x401DB7: inscribirDeportistaCampeonato(char const*, char const*, char const*, int, int, int, Estructura*) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x401775: main (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==
+==3567== 3,632 (16 direct, 3,616 indirect) bytes in 1 blocks are definitely lost in loss record 8 of 8
+==3567==    at 0x4A059DC: operator new(unsigned long) (vg_replace_malloc.c:220)
+==3567==    by 0x402CB7: insertarColaFederaciones(Federacion*, Pais*) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x401B2B: altaFederacion(char const*, char const*, char const*, int, int, int, Estructura*) (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==    by 0x401549: main (in /home/gjmf14/Documentos/Facultad/Programacion3/Laboratorios/p3ob3/tarea3)
+==3567==
+==3567== LEAK SUMMARY:
+==3567==    definitely lost: 259 bytes in 18 blocks
+==3567==    indirectly lost: 3,616 bytes in 3 blocks
+==3567==      possibly lost: 0 bytes in 0 blocks
+==3567==    still reachable: 0 bytes in 0 blocks
+==3567==         suppressed: 0 bytes in 0 blocks
+==3567==
+==3567== For counts of detected and suppressed errors, rerun with: -v
+==3567== ERROR SUMMARY: 66 errors from 13 contexts (suppressed: 6 from 6)

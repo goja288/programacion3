@@ -1,0 +1,20 @@
+abbAgregar 5
+abbAgregar 2
+abbAgregar 8
+pilaAgregar 5
+pilaAgregar 2
+pilaAgregar 8
+colaAgregar 5
+colaAgregar 2
+colaAgregar 8
+guardar ejemplo
+abbMaximo
+pilaObtener
+colaObtener
+abbMaximo
+pilaObtener
+colaObtener
+abbMaximo
+pilaObtener
+colaObtener
+salir

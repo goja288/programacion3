@@ -1,0 +1,60 @@
+guardar prueba10
+cargar prueba10
+abbAgregar 9
+pilaAgregar 9
+colaAgregar 9
+abbAgregar 8
+pilaAgregar 8
+colaAgregar 8
+abbAgregar 7
+pilaAgregar 7
+colaAgregar 7
+abbMinimo
+pilaObtener
+colaObtener
+abbAgregar 6
+pilaAgregar 6
+colaAgregar 6
+comando desconocido
+abbAgregar 5
+pilaAgregar 5
+colaAgregar 5
+abbAgregar 4
+pilaAgregar 4
+colaAgregar 4
+abbMinimo
+pilaObtener
+colaObtener
+abbAgregar 3
+pilaAgregar 3
+colaAgregar 3
+abbAgregar 2
+pilaAgregar 2
+colaAgregar 2
+abbAgregar 1
+pilaAgregar 1
+colaAgregar 1
+abbMaximo
+pilaObtener
+colaObtener
+guardar prueba10
+abbMinimo
+pilaObtener
+colaObtener
+abbMinimo
+pilaObtener
+otro comando desconocido
+colaObtener
+abbMinimo
+pilaObtener
+colaObtener
+abbMaximo
+pilaObtener
+colaObtener
+abbMaximo
+pilaObtener
+colaObtener
+abbMaximo
+pilaObtener
+colaObtener
+salir

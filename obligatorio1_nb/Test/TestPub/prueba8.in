@@ -1,0 +1,54 @@
+sali
+hola
+guardar prueba8_1
+cargar prueba8_1
+abbAgregar 125
+abbAgregar 25
+abbbbbAgregar 3
+colaAgregar 14
+abbAgregar 750
+abbAgregar 23
+pila
+pilaAgregar -6
+
+abbAgregar 7
+abbAgregar 78
+comando malo!
+abbAgregar 2
+abbAgregar 5
+abbAgregar 10
+pilaAgregar -1 
+pilaAgregar 0
+colaAgregar 10
+colaAgregar 13
+
+pilaAgregar 12
+abbAgregar 98
+abbAgregar -14
+abbAgregar 56
+abbAgregar 26
+guardar prueba8_1
+abbMinimo
+abbMinimo
+pilaObtener
+colaAgregar 8
+abbAgregar 33
+pilaObtener
+abbMaximo
+abbMaximo
+colaObtener
+colaObtener
+colaAgregar 1
+pilaAgregar 1
+abbAgregar 33300
+abbMaximo
+pilaObtener
+colaObtener
+guardar prueba8_2
+colaAgregar 5
+pppppppppp
+pilaAgregar 1
+pilaAgregar 1
+abbAgregar 1
+cargar prueba8_1
+salir

@@ -1,0 +1,109 @@
+altaPais paz AMERICA Espaniol
+altaPais pby AMERICA Espaniol
+altaPais pcx AMERICA Espaniol
+altaPais pdw AMERICA Espaniol
+altaDeportista paz 20500 n001 a001 21
+altaDeportista paz 20400 n001 a002 21
+altaDeportista paz 20300 n001 a003 21
+altaDeportista paz 20200 n001 a004 21
+altaDeportista paz 20100 n001 a005 21
+altaDeportista pby 17500 n002 a001 21
+altaDeportista pby 17400 n002 a002 21
+altaDeportista pby 17300 n002 a003 21
+altaDeportista pby 17200 n002 a004 21
+altaDeportista pby 17100 n002 a005 21
+altaDeportista pcx 27500 n003 a001 21
+altaDeportista pcx 27400 n003 a002 21
+altaDeportista pcx 27300 n003 a003 21
+altaDeportista pcx 27200 n003 a004 21
+altaDeportista pcx 27100 n003 a005 21
+altaDeportista pdw 27600 n004 a001 21
+altaDeportista pdw 27700 n004 a002 21
+altaDeportista pdw 27800 n004 a003 21
+altaDeportista pdw 27900 n004 a004 21
+altaDeportista pdw 28000 n004 a005 21
+altaFederacion pcx fede09 dscr 1 1 1901
+altaFederacion pcx fede18 dscr 1 1 1902
+altaFederacion pcx fede27 dscr 1 1 1903
+altaFederacion pcx fede36 dscr 1 1 1904
+altaFederacion pcx fede45 dscr 1 1 1905
+altaCampeonatoFederacion pcx fede09 c09P dscr 3
+altaCampeonatoFederacion pcx fede09 c18P dscr 1
+altaCampeonatoFederacion pcx fede09 c27P dscr 2
+altaCampeonatoFederacion pcx fede09 c36P dscr 4
+altaCampeonatoFederacion pcx fede09 c45P dscr 5
+altaCampeonatoFederacion pcx fede27 c09P dscr 3
+altaCampeonatoFederacion pcx fede27 c18P dscr 1
+altaCampeonatoFederacion pcx fede27 c27P dscr 2
+altaCampeonatoFederacion pcx fede27 c36P dscr 4
+altaCampeonatoFederacion pcx fede27 c45P dscr 5
+altaCampeonatoFederacion pcx fede45 c09P dscr 3
+altaCampeonatoFederacion pcx fede45 c18P dscr 1
+altaCampeonatoFederacion pcx fede45 c27P dscr 2
+altaCampeonatoFederacion pcx fede45 c36P dscr 4
+altaCampeonatoFederacion pcx fede45 c45P dscr 5
+inscribirDeportistaCampeonato pcx fede09 c09P 27300 1 25
+inscribirDeportistaCampeonato pcx fede09 c09P 27300 2 25
+inscribirDeportistaCampeonato pcx fede09 c09P 27300 3 25
+inscribirDeportistaCampeonato pcx fede09 c09P 27300 4 25
+inscribirDeportistaCampeonato pcx fede09 c09P 27300 5 25
+inscribirDeportistaCampeonato pcx fede09 c09P 27300 6 25
+inscribirDeportistaCampeonato pcx fede09 c09P 27300 7 25
+inscribirDeportistaCampeonato pcx fede09 c09P 27300 8 25
+inscribirDeportistaCampeonato pcx fede09 c09P 27300 9 25
+inscribirDeportistaCampeonato pcx fede09 c09P 27300 10 25
+inscribirDeportistaCampeonato pcx fede09 c09P 27300 11 25
+inscribirDeportistaCampeonato pcx fede09 c09P 27300 12 25
+inscribirDeportistaCampeonato pcx fede09 c27P 27300 1 20
+inscribirDeportistaCampeonato pcx fede09 c27P 27300 2 20
+inscribirDeportistaCampeonato pcx fede09 c27P 27300 3 20
+inscribirDeportistaCampeonato pcx fede09 c27P 27300 4 20
+inscribirDeportistaCampeonato pcx fede09 c27P 27300 5 20
+inscribirDeportistaCampeonato pcx fede09 c27P 27300 6 20
+inscribirDeportistaCampeonato pcx fede09 c27P 27300 7 20
+inscribirDeportistaCampeonato pcx fede09 c27P 27300 8 20
+inscribirDeportistaCampeonato pcx fede09 c27P 27300 9 20
+inscribirDeportistaCampeonato pcx fede09 c27P 27300 10 20
+inscribirDeportistaCampeonato pcx fede09 c27P 27300 11 20
+inscribirDeportistaCampeonato pcx fede09 c27P 27300 12 20
+inscribirDeportistaCampeonato pcx fede27 c18P 27300 1 15
+inscribirDeportistaCampeonato pcx fede27 c18P 27300 2 15
+inscribirDeportistaCampeonato pcx fede27 c18P 27300 3 15
+inscribirDeportistaCampeonato pcx fede27 c18P 27300 4 15
+inscribirDeportistaCampeonato pcx fede27 c18P 27300 5 15
+inscribirDeportistaCampeonato pcx fede27 c18P 27300 6 15
+inscribirDeportistaCampeonato pcx fede27 c18P 27300 7 15
+inscribirDeportistaCampeonato pcx fede27 c18P 27300 8 15
+inscribirDeportistaCampeonato pcx fede27 c18P 27300 9 15
+inscribirDeportistaCampeonato pcx fede27 c18P 27300 10 15
+inscribirDeportistaCampeonato pcx fede27 c18P 27300 11 15
+inscribirDeportistaCampeonato pcx fede27 c18P 27300 12 15
+inscribirDeportistaCampeonato pcx fede45 c45P 27300 1 10
+inscribirDeportistaCampeonato pcx fede45 c45P 27300 2 10
+inscribirDeportistaCampeonato pcx fede45 c45P 27300 3 10
+inscribirDeportistaCampeonato pcx fede45 c45P 27300 4 10
+inscribirDeportistaCampeonato pcx fede45 c45P 27300 5 10
+inscribirDeportistaCampeonato pcx fede45 c45P 27300 6 10
+inscribirDeportistaCampeonato pcx fede45 c45P 27300 7 10
+inscribirDeportistaCampeonato pcx fede45 c45P 27300 8 10
+inscribirDeportistaCampeonato pcx fede45 c45P 27300 9 10
+inscribirDeportistaCampeonato pcx fede45 c45P 27300 10 10
+inscribirDeportistaCampeonato pcx fede45 c45P 27300 11 10
+inscribirDeportistaCampeonato pcx fede45 c45P 27300 12 10
+inscribirDeportistaCampeonato pcx fede45 c36P 27300 1 5
+inscribirDeportistaCampeonato pcx fede45 c36P 27300 2 5
+inscribirDeportistaCampeonato pcx fede45 c36P 27300 3 5
+inscribirDeportistaCampeonato pcx fede45 c36P 27300 4 5
+inscribirDeportistaCampeonato pcx fede45 c36P 27300 5 5
+inscribirDeportistaCampeonato pcx fede45 c36P 27300 6 5
+inscribirDeportistaCampeonato pcx fede45 c36P 27300 7 5
+inscribirDeportistaCampeonato pcx fede45 c36P 27300 8 5
+inscribirDeportistaCampeonato pcx fede45 c36P 27300 9 5
+inscribirDeportistaCampeonato pcx fede45 c36P 27300 10 5
+inscribirDeportistaCampeonato pcx fede45 c36P 27300 11 5
+inscribirDeportistaCampeonato pcx fede45 c36P 27300 12 5
+imprimirCampeonatosDeportista 20500
+imprimirCampeonatosDeportista 27300
+imprimirCampeonatosDeportista 17100
+imprimirCampeonatosDeportista 28000
+salir

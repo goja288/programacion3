@@ -1,0 +1,18 @@
+CC= g++
+WARNING = -Wall -Werror -g
+LIB=
+
+todo: main
+
+buscoamor.o:	buscoamor.cpp buscoamor.h 
+	$(CC) -c buscoamor.cpp $(WARNING)
+main.o:	main.cpp buscoamor.h
+	$(CC) -c main.cpp $(WARNING)
+main: main.o buscoamor.o
+	$(CC) main.o buscoamor.o -o main $(LIB)
+
+clean:
+	rm buscoamor.o
+	rm main.o
+	rm main
+

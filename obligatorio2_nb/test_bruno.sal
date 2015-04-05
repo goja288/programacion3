@@ -1,0 +1,1552 @@
+ASIGNAR TERRITORIOS Y COMUNIDADES
+
+Territorio0: nombre-> Territorio_0 | comunidad-> Comunidad_0 ||
+Territorio1: nombre-> Territorio_1 | comunidad-> Comunidad_1 ||
+Territorio2: nombre-> Territorio_2 | comunidad-> Comunidad_2 ||
+Territorio3: nombre-> Territorio_3 | comunidad-> Comunidad_3 ||
+Territorio4: nombre-> Territorio_4 | comunidad-> Comunidad_4 ||
+Territorio5: nombre-> Territorio_5 | comunidad-> Comunidad_5 ||
+Territorio6: nombre-> Territorio_6 | comunidad-> Comunidad_6 ||
+Territorio7: nombre-> Territorio_7 | comunidad-> Comunidad_7 ||
+Territorio8: nombre-> Territorio_8 | comunidad-> Comunidad_8 ||
+
+ESTRUCTURA=>
+(( 0 )||-->>>NULL
+
+(( 1 )||-->>>NULL
+
+(( 2 )||-->>>NULL
+
+(( 3 )||-->>>NULL
+
+(( 4 )||-->>>NULL
+
+(( 5 )||-->>>NULL
+
+(( 6 )||-->>>NULL
+
+(( 7 )||-->>>NULL
+
+(( 8 )||-->>>NULL
+
+
+CREAR VECINOS
+
+(( 0 )||-->>>>| 8  |>>>>| 7  |>>>>| 6  |>>>>| 5  |>>>>| 4  |>>>>| 3  |>>>>| 2  |>>>>| 1  |>>>NULL
+
+(( 1 )||-->>>>| 8  |>>>>| 7  |>>>>| 6  |>>>>| 5  |>>>>| 4  |>>>>| 3  |>>>>| 2  |>>>>| 0  |>>>NULL
+
+(( 2 )||-->>>>| 8  |>>>>| 7  |>>>>| 6  |>>>>| 5  |>>>>| 4  |>>>>| 3  |>>>>| 1  |>>>>| 0  |>>>NULL
+
+(( 3 )||-->>>>| 8  |>>>>| 7  |>>>>| 6  |>>>>| 5  |>>>>| 4  |>>>>| 2  |>>>>| 1  |>>>>| 0  |>>>NULL
+
+(( 4 )||-->>>>| 8  |>>>>| 7  |>>>>| 6  |>>>>| 5  |>>>>| 3  |>>>>| 2  |>>>>| 1  |>>>>| 0  |>>>NULL
+
+(( 5 )||-->>>>| 8  |>>>>| 7  |>>>>| 6  |>>>>| 4  |>>>>| 3  |>>>>| 2  |>>>>| 1  |>>>>| 0  |>>>NULL
+
+(( 6 )||-->>>>| 8  |>>>>| 7  |>>>>| 5  |>>>>| 4  |>>>>| 3  |>>>>| 2  |>>>>| 1  |>>>>| 0  |>>>NULL
+
+(( 7 )||-->>>>| 8  |>>>>| 6  |>>>>| 5  |>>>>| 4  |>>>>| 3  |>>>>| 2  |>>>>| 1  |>>>>| 0  |>>>NULL
+
+(( 8 )||-->>>>| 7  |>>>>| 6  |>>>>| 5  |>>>>| 4  |>>>>| 3  |>>>>| 2  |>>>>| 1  |>>>>| 0  |>>>NULL
+
+
+PAVIMENTAR
+
+(( 0 )||-->>>>| 8  |>>>NULL
+
+(( 1 )||-->>>>| 2  |>>>NULL
+
+(( 2 )||-->>>>| 1  |>>>>| 3  |>>>NULL
+
+(( 3 )||-->>>>| 2  |>>>>| 4  |>>>NULL
+
+(( 4 )||-->>>>| 3  |>>>>| 5  |>>>NULL
+
+(( 5 )||-->>>>| 4  |>>>>| 6  |>>>NULL
+
+(( 6 )||-->>>>| 5  |>>>>| 7  |>>>NULL
+
+(( 7 )||-->>>>| 6  |>>>>| 8  |>>>NULL
+
+(( 8 )||-->>>>| 7  |>>>>| 0  |>>>NULL
+
+Territorio0: nombre-> Territorio_0 | comunidad-> Comunidad_0 ||
+Territorio1: nombre-> Territorio_1 | comunidad-> Comunidad_1 ||
+Territorio2: nombre-> Territorio_2 | comunidad-> Comunidad_2 ||
+Territorio3: nombre-> Territorio_3 | comunidad-> Comunidad_3 ||
+Territorio4: nombre-> Territorio_4 | comunidad-> Comunidad_4 ||
+Territorio5: nombre-> Territorio_5 | comunidad-> Comunidad_5 ||
+Territorio6: nombre-> Territorio_6 | comunidad-> Comunidad_6 ||
+Territorio7: nombre-> Territorio_7 | comunidad-> Comunidad_7 ||
+
+
+-----------------	ARBOL PARA PROBAR 	------------------
+(( 0 )||-->>>>| 3  |>>>>| 2  |>>>>| 1  |>>>NULL
+
+(( 1 )||-->>>>| 5  |>>>>| 4  |>>>>| 2  |>>>>| 0  |>>>NULL
+
+(( 2 )||-->>>>| 5  |>>>>| 1  |>>>>| 0  |>>>NULL
+
+(( 3 )||-->>>>| 7  |>>>>| 6  |>>>>| 0  |>>>NULL
+
+(( 4 )||-->>>>| 5  |>>>>| 1  |>>>NULL
+
+(( 5 )||-->>>>| 4  |>>>>| 2  |>>>>| 1  |>>>NULL
+
+(( 6 )||-->>>>| 7  |>>>>| 3  |>>>NULL
+
+(( 7 )||-->>>>| 6  |>>>>| 3  |>>>NULL
+
+
+-----------------                     ------------------
+
+------------------ CAMINO MAS CORTO --------------------
+caminoMasCorto(m,0,1,Comunidad_2):
+	LARGO DEL CAMINO = 2
+		| 1 || 0 |
+
+caminoMasCorto(m,0,1,Comunidad_3):
+	LARGO DEL CAMINO = 2
+		| 1 || 0 |
+
+caminoMasCorto(m,0,1,Comunidad_4):
+	LARGO DEL CAMINO = 2
+		| 1 || 0 |
+
+caminoMasCorto(m,0,1,Comunidad_5):
+	LARGO DEL CAMINO = 2
+		| 1 || 0 |
+
+caminoMasCorto(m,0,1,Comunidad_6):
+	LARGO DEL CAMINO = 2
+		| 1 || 0 |
+
+caminoMasCorto(m,0,1,Comunidad_7):
+	LARGO DEL CAMINO = 2
+		| 1 || 0 |
+
+caminoMasCorto(m,0,2,Comunidad_1):
+	LARGO DEL CAMINO = 2
+		| 2 || 0 |
+
+caminoMasCorto(m,0,2,Comunidad_3):
+	LARGO DEL CAMINO = 2
+		| 2 || 0 |
+
+caminoMasCorto(m,0,2,Comunidad_4):
+	LARGO DEL CAMINO = 2
+		| 2 || 0 |
+
+caminoMasCorto(m,0,2,Comunidad_5):
+	LARGO DEL CAMINO = 2
+		| 2 || 0 |
+
+caminoMasCorto(m,0,2,Comunidad_6):
+	LARGO DEL CAMINO = 2
+		| 2 || 0 |
+
+caminoMasCorto(m,0,2,Comunidad_7):
+	LARGO DEL CAMINO = 2
+		| 2 || 0 |
+
+caminoMasCorto(m,0,3,Comunidad_1):
+	LARGO DEL CAMINO = 2
+		| 3 || 0 |
+
+caminoMasCorto(m,0,3,Comunidad_2):
+	LARGO DEL CAMINO = 2
+		| 3 || 0 |
+
+caminoMasCorto(m,0,3,Comunidad_4):
+	LARGO DEL CAMINO = 2
+		| 3 || 0 |
+
+caminoMasCorto(m,0,3,Comunidad_5):
+	LARGO DEL CAMINO = 2
+		| 3 || 0 |
+
+caminoMasCorto(m,0,3,Comunidad_6):
+	LARGO DEL CAMINO = 2
+		| 3 || 0 |
+
+caminoMasCorto(m,0,3,Comunidad_7):
+	LARGO DEL CAMINO = 2
+		| 3 || 0 |
+
+caminoMasCorto(m,0,4,Comunidad_1):
+	LARGO DEL CAMINO = 4
+		| 4 || 5 || 2 || 0 |
+
+caminoMasCorto(m,0,4,Comunidad_2):
+	LARGO DEL CAMINO = 3
+		| 4 || 1 || 0 |
+
+caminoMasCorto(m,0,4,Comunidad_3):
+	LARGO DEL CAMINO = 3
+		| 4 || 1 || 0 |
+
+caminoMasCorto(m,0,4,Comunidad_5):
+	LARGO DEL CAMINO = 3
+		| 4 || 1 || 0 |
+
+caminoMasCorto(m,0,4,Comunidad_6):
+	LARGO DEL CAMINO = 3
+		| 4 || 1 || 0 |
+
+caminoMasCorto(m,0,4,Comunidad_7):
+	LARGO DEL CAMINO = 3
+		| 4 || 1 || 0 |
+
+caminoMasCorto(m,0,5,Comunidad_1):
+	LARGO DEL CAMINO = 3
+		| 5 || 2 || 0 |
+
+caminoMasCorto(m,0,5,Comunidad_2):
+	LARGO DEL CAMINO = 3
+		| 5 || 1 || 0 |
+
+caminoMasCorto(m,0,5,Comunidad_3):
+	LARGO DEL CAMINO = 3
+		| 5 || 2 || 0 |
+
+caminoMasCorto(m,0,5,Comunidad_4):
+	LARGO DEL CAMINO = 3
+		| 5 || 2 || 0 |
+
+caminoMasCorto(m,0,5,Comunidad_6):
+	LARGO DEL CAMINO = 3
+		| 5 || 2 || 0 |
+
+caminoMasCorto(m,0,5,Comunidad_7):
+	LARGO DEL CAMINO = 3
+		| 5 || 2 || 0 |
+
+caminoMasCorto(m,0,6,Comunidad_1):
+	LARGO DEL CAMINO = 3
+		| 6 || 3 || 0 |
+
+caminoMasCorto(m,0,6,Comunidad_2):
+	LARGO DEL CAMINO = 3
+		| 6 || 3 || 0 |
+
+caminoMasCorto(m,0,6,Comunidad_3):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,0,6,Comunidad_4):
+	LARGO DEL CAMINO = 3
+		| 6 || 3 || 0 |
+
+caminoMasCorto(m,0,6,Comunidad_5):
+	LARGO DEL CAMINO = 3
+		| 6 || 3 || 0 |
+
+caminoMasCorto(m,0,6,Comunidad_7):
+	LARGO DEL CAMINO = 3
+		| 6 || 3 || 0 |
+
+caminoMasCorto(m,0,7,Comunidad_1):
+	LARGO DEL CAMINO = 3
+		| 7 || 3 || 0 |
+
+caminoMasCorto(m,0,7,Comunidad_2):
+	LARGO DEL CAMINO = 3
+		| 7 || 3 || 0 |
+
+caminoMasCorto(m,0,7,Comunidad_3):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,0,7,Comunidad_4):
+	LARGO DEL CAMINO = 3
+		| 7 || 3 || 0 |
+
+caminoMasCorto(m,0,7,Comunidad_5):
+	LARGO DEL CAMINO = 3
+		| 7 || 3 || 0 |
+
+caminoMasCorto(m,0,7,Comunidad_6):
+	LARGO DEL CAMINO = 3
+		| 7 || 3 || 0 |
+
+caminoMasCorto(m,1,0,Comunidad_2):
+	LARGO DEL CAMINO = 2
+		| 0 || 1 |
+
+caminoMasCorto(m,1,0,Comunidad_3):
+	LARGO DEL CAMINO = 2
+		| 0 || 1 |
+
+caminoMasCorto(m,1,0,Comunidad_4):
+	LARGO DEL CAMINO = 2
+		| 0 || 1 |
+
+caminoMasCorto(m,1,0,Comunidad_5):
+	LARGO DEL CAMINO = 2
+		| 0 || 1 |
+
+caminoMasCorto(m,1,0,Comunidad_6):
+	LARGO DEL CAMINO = 2
+		| 0 || 1 |
+
+caminoMasCorto(m,1,0,Comunidad_7):
+	LARGO DEL CAMINO = 2
+		| 0 || 1 |
+
+caminoMasCorto(m,1,2,Comunidad_0):
+	LARGO DEL CAMINO = 2
+		| 2 || 1 |
+
+caminoMasCorto(m,1,2,Comunidad_3):
+	LARGO DEL CAMINO = 2
+		| 2 || 1 |
+
+caminoMasCorto(m,1,2,Comunidad_4):
+	LARGO DEL CAMINO = 2
+		| 2 || 1 |
+
+caminoMasCorto(m,1,2,Comunidad_5):
+	LARGO DEL CAMINO = 2
+		| 2 || 1 |
+
+caminoMasCorto(m,1,2,Comunidad_6):
+	LARGO DEL CAMINO = 2
+		| 2 || 1 |
+
+caminoMasCorto(m,1,2,Comunidad_7):
+	LARGO DEL CAMINO = 2
+		| 2 || 1 |
+
+caminoMasCorto(m,1,3,Comunidad_0):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,1,3,Comunidad_2):
+	LARGO DEL CAMINO = 3
+		| 3 || 0 || 1 |
+
+caminoMasCorto(m,1,3,Comunidad_4):
+	LARGO DEL CAMINO = 3
+		| 3 || 0 || 1 |
+
+caminoMasCorto(m,1,3,Comunidad_5):
+	LARGO DEL CAMINO = 3
+		| 3 || 0 || 1 |
+
+caminoMasCorto(m,1,3,Comunidad_6):
+	LARGO DEL CAMINO = 3
+		| 3 || 0 || 1 |
+
+caminoMasCorto(m,1,3,Comunidad_7):
+	LARGO DEL CAMINO = 3
+		| 3 || 0 || 1 |
+
+caminoMasCorto(m,1,4,Comunidad_0):
+	LARGO DEL CAMINO = 2
+		| 4 || 1 |
+
+caminoMasCorto(m,1,4,Comunidad_2):
+	LARGO DEL CAMINO = 2
+		| 4 || 1 |
+
+caminoMasCorto(m,1,4,Comunidad_3):
+	LARGO DEL CAMINO = 2
+		| 4 || 1 |
+
+caminoMasCorto(m,1,4,Comunidad_5):
+	LARGO DEL CAMINO = 2
+		| 4 || 1 |
+
+caminoMasCorto(m,1,4,Comunidad_6):
+	LARGO DEL CAMINO = 2
+		| 4 || 1 |
+
+caminoMasCorto(m,1,4,Comunidad_7):
+	LARGO DEL CAMINO = 2
+		| 4 || 1 |
+
+caminoMasCorto(m,1,5,Comunidad_0):
+	LARGO DEL CAMINO = 2
+		| 5 || 1 |
+
+caminoMasCorto(m,1,5,Comunidad_2):
+	LARGO DEL CAMINO = 2
+		| 5 || 1 |
+
+caminoMasCorto(m,1,5,Comunidad_3):
+	LARGO DEL CAMINO = 2
+		| 5 || 1 |
+
+caminoMasCorto(m,1,5,Comunidad_4):
+	LARGO DEL CAMINO = 2
+		| 5 || 1 |
+
+caminoMasCorto(m,1,5,Comunidad_6):
+	LARGO DEL CAMINO = 2
+		| 5 || 1 |
+
+caminoMasCorto(m,1,5,Comunidad_7):
+	LARGO DEL CAMINO = 2
+		| 5 || 1 |
+
+caminoMasCorto(m,1,6,Comunidad_0):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,1,6,Comunidad_2):
+	LARGO DEL CAMINO = 4
+		| 6 || 3 || 0 || 1 |
+
+caminoMasCorto(m,1,6,Comunidad_3):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,1,6,Comunidad_4):
+	LARGO DEL CAMINO = 4
+		| 6 || 3 || 0 || 1 |
+
+caminoMasCorto(m,1,6,Comunidad_5):
+	LARGO DEL CAMINO = 4
+		| 6 || 3 || 0 || 1 |
+
+caminoMasCorto(m,1,6,Comunidad_7):
+	LARGO DEL CAMINO = 4
+		| 6 || 3 || 0 || 1 |
+
+caminoMasCorto(m,1,7,Comunidad_0):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,1,7,Comunidad_2):
+	LARGO DEL CAMINO = 4
+		| 7 || 3 || 0 || 1 |
+
+caminoMasCorto(m,1,7,Comunidad_3):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,1,7,Comunidad_4):
+	LARGO DEL CAMINO = 4
+		| 7 || 3 || 0 || 1 |
+
+caminoMasCorto(m,1,7,Comunidad_5):
+	LARGO DEL CAMINO = 4
+		| 7 || 3 || 0 || 1 |
+
+caminoMasCorto(m,1,7,Comunidad_6):
+	LARGO DEL CAMINO = 4
+		| 7 || 3 || 0 || 1 |
+
+caminoMasCorto(m,2,0,Comunidad_1):
+	LARGO DEL CAMINO = 2
+		| 0 || 2 |
+
+caminoMasCorto(m,2,0,Comunidad_3):
+	LARGO DEL CAMINO = 2
+		| 0 || 2 |
+
+caminoMasCorto(m,2,0,Comunidad_4):
+	LARGO DEL CAMINO = 2
+		| 0 || 2 |
+
+caminoMasCorto(m,2,0,Comunidad_5):
+	LARGO DEL CAMINO = 2
+		| 0 || 2 |
+
+caminoMasCorto(m,2,0,Comunidad_6):
+	LARGO DEL CAMINO = 2
+		| 0 || 2 |
+
+caminoMasCorto(m,2,0,Comunidad_7):
+	LARGO DEL CAMINO = 2
+		| 0 || 2 |
+
+caminoMasCorto(m,2,1,Comunidad_0):
+	LARGO DEL CAMINO = 2
+		| 1 || 2 |
+
+caminoMasCorto(m,2,1,Comunidad_3):
+	LARGO DEL CAMINO = 2
+		| 1 || 2 |
+
+caminoMasCorto(m,2,1,Comunidad_4):
+	LARGO DEL CAMINO = 2
+		| 1 || 2 |
+
+caminoMasCorto(m,2,1,Comunidad_5):
+	LARGO DEL CAMINO = 2
+		| 1 || 2 |
+
+caminoMasCorto(m,2,1,Comunidad_6):
+	LARGO DEL CAMINO = 2
+		| 1 || 2 |
+
+caminoMasCorto(m,2,1,Comunidad_7):
+	LARGO DEL CAMINO = 2
+		| 1 || 2 |
+
+caminoMasCorto(m,2,3,Comunidad_0):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,2,3,Comunidad_1):
+	LARGO DEL CAMINO = 3
+		| 3 || 0 || 2 |
+
+caminoMasCorto(m,2,3,Comunidad_4):
+	LARGO DEL CAMINO = 3
+		| 3 || 0 || 2 |
+
+caminoMasCorto(m,2,3,Comunidad_5):
+	LARGO DEL CAMINO = 3
+		| 3 || 0 || 2 |
+
+caminoMasCorto(m,2,3,Comunidad_6):
+	LARGO DEL CAMINO = 3
+		| 3 || 0 || 2 |
+
+caminoMasCorto(m,2,3,Comunidad_7):
+	LARGO DEL CAMINO = 3
+		| 3 || 0 || 2 |
+
+caminoMasCorto(m,2,4,Comunidad_0):
+	LARGO DEL CAMINO = 3
+		| 4 || 5 || 2 |
+
+caminoMasCorto(m,2,4,Comunidad_1):
+	LARGO DEL CAMINO = 3
+		| 4 || 5 || 2 |
+
+caminoMasCorto(m,2,4,Comunidad_3):
+	LARGO DEL CAMINO = 3
+		| 4 || 5 || 2 |
+
+caminoMasCorto(m,2,4,Comunidad_5):
+	LARGO DEL CAMINO = 3
+		| 4 || 1 || 2 |
+
+caminoMasCorto(m,2,4,Comunidad_6):
+	LARGO DEL CAMINO = 3
+		| 4 || 5 || 2 |
+
+caminoMasCorto(m,2,4,Comunidad_7):
+	LARGO DEL CAMINO = 3
+		| 4 || 5 || 2 |
+
+caminoMasCorto(m,2,5,Comunidad_0):
+	LARGO DEL CAMINO = 2
+		| 5 || 2 |
+
+caminoMasCorto(m,2,5,Comunidad_1):
+	LARGO DEL CAMINO = 2
+		| 5 || 2 |
+
+caminoMasCorto(m,2,5,Comunidad_3):
+	LARGO DEL CAMINO = 2
+		| 5 || 2 |
+
+caminoMasCorto(m,2,5,Comunidad_4):
+	LARGO DEL CAMINO = 2
+		| 5 || 2 |
+
+caminoMasCorto(m,2,5,Comunidad_6):
+	LARGO DEL CAMINO = 2
+		| 5 || 2 |
+
+caminoMasCorto(m,2,5,Comunidad_7):
+	LARGO DEL CAMINO = 2
+		| 5 || 2 |
+
+caminoMasCorto(m,2,6,Comunidad_0):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,2,6,Comunidad_1):
+	LARGO DEL CAMINO = 4
+		| 6 || 3 || 0 || 2 |
+
+caminoMasCorto(m,2,6,Comunidad_3):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,2,6,Comunidad_4):
+	LARGO DEL CAMINO = 4
+		| 6 || 3 || 0 || 2 |
+
+caminoMasCorto(m,2,6,Comunidad_5):
+	LARGO DEL CAMINO = 4
+		| 6 || 3 || 0 || 2 |
+
+caminoMasCorto(m,2,6,Comunidad_7):
+	LARGO DEL CAMINO = 4
+		| 6 || 3 || 0 || 2 |
+
+caminoMasCorto(m,2,7,Comunidad_0):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,2,7,Comunidad_1):
+	LARGO DEL CAMINO = 4
+		| 7 || 3 || 0 || 2 |
+
+caminoMasCorto(m,2,7,Comunidad_3):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,2,7,Comunidad_4):
+	LARGO DEL CAMINO = 4
+		| 7 || 3 || 0 || 2 |
+
+caminoMasCorto(m,2,7,Comunidad_5):
+	LARGO DEL CAMINO = 4
+		| 7 || 3 || 0 || 2 |
+
+caminoMasCorto(m,2,7,Comunidad_6):
+	LARGO DEL CAMINO = 4
+		| 7 || 3 || 0 || 2 |
+
+caminoMasCorto(m,3,0,Comunidad_1):
+	LARGO DEL CAMINO = 2
+		| 0 || 3 |
+
+caminoMasCorto(m,3,0,Comunidad_2):
+	LARGO DEL CAMINO = 2
+		| 0 || 3 |
+
+caminoMasCorto(m,3,0,Comunidad_4):
+	LARGO DEL CAMINO = 2
+		| 0 || 3 |
+
+caminoMasCorto(m,3,0,Comunidad_5):
+	LARGO DEL CAMINO = 2
+		| 0 || 3 |
+
+caminoMasCorto(m,3,0,Comunidad_6):
+	LARGO DEL CAMINO = 2
+		| 0 || 3 |
+
+caminoMasCorto(m,3,0,Comunidad_7):
+	LARGO DEL CAMINO = 2
+		| 0 || 3 |
+
+caminoMasCorto(m,3,1,Comunidad_0):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,3,1,Comunidad_2):
+	LARGO DEL CAMINO = 3
+		| 1 || 0 || 3 |
+
+caminoMasCorto(m,3,1,Comunidad_4):
+	LARGO DEL CAMINO = 3
+		| 1 || 0 || 3 |
+
+caminoMasCorto(m,3,1,Comunidad_5):
+	LARGO DEL CAMINO = 3
+		| 1 || 0 || 3 |
+
+caminoMasCorto(m,3,1,Comunidad_6):
+	LARGO DEL CAMINO = 3
+		| 1 || 0 || 3 |
+
+caminoMasCorto(m,3,1,Comunidad_7):
+	LARGO DEL CAMINO = 3
+		| 1 || 0 || 3 |
+
+caminoMasCorto(m,3,2,Comunidad_0):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,3,2,Comunidad_1):
+	LARGO DEL CAMINO = 3
+		| 2 || 0 || 3 |
+
+caminoMasCorto(m,3,2,Comunidad_4):
+	LARGO DEL CAMINO = 3
+		| 2 || 0 || 3 |
+
+caminoMasCorto(m,3,2,Comunidad_5):
+	LARGO DEL CAMINO = 3
+		| 2 || 0 || 3 |
+
+caminoMasCorto(m,3,2,Comunidad_6):
+	LARGO DEL CAMINO = 3
+		| 2 || 0 || 3 |
+
+caminoMasCorto(m,3,2,Comunidad_7):
+	LARGO DEL CAMINO = 3
+		| 2 || 0 || 3 |
+
+caminoMasCorto(m,3,4,Comunidad_0):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,3,4,Comunidad_1):
+	LARGO DEL CAMINO = 5
+		| 4 || 5 || 2 || 0 || 3 |
+
+caminoMasCorto(m,3,4,Comunidad_2):
+	LARGO DEL CAMINO = 4
+		| 4 || 1 || 0 || 3 |
+
+caminoMasCorto(m,3,4,Comunidad_5):
+	LARGO DEL CAMINO = 4
+		| 4 || 1 || 0 || 3 |
+
+caminoMasCorto(m,3,4,Comunidad_6):
+	LARGO DEL CAMINO = 4
+		| 4 || 1 || 0 || 3 |
+
+caminoMasCorto(m,3,4,Comunidad_7):
+	LARGO DEL CAMINO = 4
+		| 4 || 1 || 0 || 3 |
+
+caminoMasCorto(m,3,5,Comunidad_0):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,3,5,Comunidad_1):
+	LARGO DEL CAMINO = 4
+		| 5 || 2 || 0 || 3 |
+
+caminoMasCorto(m,3,5,Comunidad_2):
+	LARGO DEL CAMINO = 4
+		| 5 || 1 || 0 || 3 |
+
+caminoMasCorto(m,3,5,Comunidad_4):
+	LARGO DEL CAMINO = 4
+		| 5 || 2 || 0 || 3 |
+
+caminoMasCorto(m,3,5,Comunidad_6):
+	LARGO DEL CAMINO = 4
+		| 5 || 2 || 0 || 3 |
+
+caminoMasCorto(m,3,5,Comunidad_7):
+	LARGO DEL CAMINO = 4
+		| 5 || 2 || 0 || 3 |
+
+caminoMasCorto(m,3,6,Comunidad_0):
+	LARGO DEL CAMINO = 2
+		| 6 || 3 |
+
+caminoMasCorto(m,3,6,Comunidad_1):
+	LARGO DEL CAMINO = 2
+		| 6 || 3 |
+
+caminoMasCorto(m,3,6,Comunidad_2):
+	LARGO DEL CAMINO = 2
+		| 6 || 3 |
+
+caminoMasCorto(m,3,6,Comunidad_4):
+	LARGO DEL CAMINO = 2
+		| 6 || 3 |
+
+caminoMasCorto(m,3,6,Comunidad_5):
+	LARGO DEL CAMINO = 2
+		| 6 || 3 |
+
+caminoMasCorto(m,3,6,Comunidad_7):
+	LARGO DEL CAMINO = 2
+		| 6 || 3 |
+
+caminoMasCorto(m,3,7,Comunidad_0):
+	LARGO DEL CAMINO = 2
+		| 7 || 3 |
+
+caminoMasCorto(m,3,7,Comunidad_1):
+	LARGO DEL CAMINO = 2
+		| 7 || 3 |
+
+caminoMasCorto(m,3,7,Comunidad_2):
+	LARGO DEL CAMINO = 2
+		| 7 || 3 |
+
+caminoMasCorto(m,3,7,Comunidad_4):
+	LARGO DEL CAMINO = 2
+		| 7 || 3 |
+
+caminoMasCorto(m,3,7,Comunidad_5):
+	LARGO DEL CAMINO = 2
+		| 7 || 3 |
+
+caminoMasCorto(m,3,7,Comunidad_6):
+	LARGO DEL CAMINO = 2
+		| 7 || 3 |
+
+caminoMasCorto(m,4,0,Comunidad_1):
+	LARGO DEL CAMINO = 4
+		| 0 || 2 || 5 || 4 |
+
+caminoMasCorto(m,4,0,Comunidad_2):
+	LARGO DEL CAMINO = 3
+		| 0 || 1 || 4 |
+
+caminoMasCorto(m,4,0,Comunidad_3):
+	LARGO DEL CAMINO = 3
+		| 0 || 1 || 4 |
+
+caminoMasCorto(m,4,0,Comunidad_5):
+	LARGO DEL CAMINO = 3
+		| 0 || 1 || 4 |
+
+caminoMasCorto(m,4,0,Comunidad_6):
+	LARGO DEL CAMINO = 3
+		| 0 || 1 || 4 |
+
+caminoMasCorto(m,4,0,Comunidad_7):
+	LARGO DEL CAMINO = 3
+		| 0 || 1 || 4 |
+
+caminoMasCorto(m,4,1,Comunidad_0):
+	LARGO DEL CAMINO = 2
+		| 1 || 4 |
+
+caminoMasCorto(m,4,1,Comunidad_2):
+	LARGO DEL CAMINO = 2
+		| 1 || 4 |
+
+caminoMasCorto(m,4,1,Comunidad_3):
+	LARGO DEL CAMINO = 2
+		| 1 || 4 |
+
+caminoMasCorto(m,4,1,Comunidad_5):
+	LARGO DEL CAMINO = 2
+		| 1 || 4 |
+
+caminoMasCorto(m,4,1,Comunidad_6):
+	LARGO DEL CAMINO = 2
+		| 1 || 4 |
+
+caminoMasCorto(m,4,1,Comunidad_7):
+	LARGO DEL CAMINO = 2
+		| 1 || 4 |
+
+caminoMasCorto(m,4,2,Comunidad_0):
+	LARGO DEL CAMINO = 3
+		| 2 || 5 || 4 |
+
+caminoMasCorto(m,4,2,Comunidad_1):
+	LARGO DEL CAMINO = 3
+		| 2 || 5 || 4 |
+
+caminoMasCorto(m,4,2,Comunidad_3):
+	LARGO DEL CAMINO = 3
+		| 2 || 5 || 4 |
+
+caminoMasCorto(m,4,2,Comunidad_5):
+	LARGO DEL CAMINO = 3
+		| 2 || 1 || 4 |
+
+caminoMasCorto(m,4,2,Comunidad_6):
+	LARGO DEL CAMINO = 3
+		| 2 || 5 || 4 |
+
+caminoMasCorto(m,4,2,Comunidad_7):
+	LARGO DEL CAMINO = 3
+		| 2 || 5 || 4 |
+
+caminoMasCorto(m,4,3,Comunidad_0):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,4,3,Comunidad_1):
+	LARGO DEL CAMINO = 5
+		| 3 || 0 || 2 || 5 || 4 |
+
+caminoMasCorto(m,4,3,Comunidad_2):
+	LARGO DEL CAMINO = 4
+		| 3 || 0 || 1 || 4 |
+
+caminoMasCorto(m,4,3,Comunidad_5):
+	LARGO DEL CAMINO = 4
+		| 3 || 0 || 1 || 4 |
+
+caminoMasCorto(m,4,3,Comunidad_6):
+	LARGO DEL CAMINO = 4
+		| 3 || 0 || 1 || 4 |
+
+caminoMasCorto(m,4,3,Comunidad_7):
+	LARGO DEL CAMINO = 4
+		| 3 || 0 || 1 || 4 |
+
+caminoMasCorto(m,4,5,Comunidad_0):
+	LARGO DEL CAMINO = 2
+		| 5 || 4 |
+
+caminoMasCorto(m,4,5,Comunidad_1):
+	LARGO DEL CAMINO = 2
+		| 5 || 4 |
+
+caminoMasCorto(m,4,5,Comunidad_2):
+	LARGO DEL CAMINO = 2
+		| 5 || 4 |
+
+caminoMasCorto(m,4,5,Comunidad_3):
+	LARGO DEL CAMINO = 2
+		| 5 || 4 |
+
+caminoMasCorto(m,4,5,Comunidad_6):
+	LARGO DEL CAMINO = 2
+		| 5 || 4 |
+
+caminoMasCorto(m,4,5,Comunidad_7):
+	LARGO DEL CAMINO = 2
+		| 5 || 4 |
+
+caminoMasCorto(m,4,6,Comunidad_0):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,4,6,Comunidad_1):
+	LARGO DEL CAMINO = 6
+		| 6 || 3 || 0 || 2 || 5 || 4 |
+
+caminoMasCorto(m,4,6,Comunidad_2):
+	LARGO DEL CAMINO = 5
+		| 6 || 3 || 0 || 1 || 4 |
+
+caminoMasCorto(m,4,6,Comunidad_3):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,4,6,Comunidad_5):
+	LARGO DEL CAMINO = 5
+		| 6 || 3 || 0 || 1 || 4 |
+
+caminoMasCorto(m,4,6,Comunidad_7):
+	LARGO DEL CAMINO = 5
+		| 6 || 3 || 0 || 1 || 4 |
+
+caminoMasCorto(m,4,7,Comunidad_0):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,4,7,Comunidad_1):
+	LARGO DEL CAMINO = 6
+		| 7 || 3 || 0 || 2 || 5 || 4 |
+
+caminoMasCorto(m,4,7,Comunidad_2):
+	LARGO DEL CAMINO = 5
+		| 7 || 3 || 0 || 1 || 4 |
+
+caminoMasCorto(m,4,7,Comunidad_3):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,4,7,Comunidad_5):
+	LARGO DEL CAMINO = 5
+		| 7 || 3 || 0 || 1 || 4 |
+
+caminoMasCorto(m,4,7,Comunidad_6):
+	LARGO DEL CAMINO = 5
+		| 7 || 3 || 0 || 1 || 4 |
+
+caminoMasCorto(m,5,0,Comunidad_1):
+	LARGO DEL CAMINO = 3
+		| 0 || 2 || 5 |
+
+caminoMasCorto(m,5,0,Comunidad_2):
+	LARGO DEL CAMINO = 3
+		| 0 || 1 || 5 |
+
+caminoMasCorto(m,5,0,Comunidad_3):
+	LARGO DEL CAMINO = 3
+		| 0 || 2 || 5 |
+
+caminoMasCorto(m,5,0,Comunidad_4):
+	LARGO DEL CAMINO = 3
+		| 0 || 2 || 5 |
+
+caminoMasCorto(m,5,0,Comunidad_6):
+	LARGO DEL CAMINO = 3
+		| 0 || 2 || 5 |
+
+caminoMasCorto(m,5,0,Comunidad_7):
+	LARGO DEL CAMINO = 3
+		| 0 || 2 || 5 |
+
+caminoMasCorto(m,5,1,Comunidad_0):
+	LARGO DEL CAMINO = 2
+		| 1 || 5 |
+
+caminoMasCorto(m,5,1,Comunidad_2):
+	LARGO DEL CAMINO = 2
+		| 1 || 5 |
+
+caminoMasCorto(m,5,1,Comunidad_3):
+	LARGO DEL CAMINO = 2
+		| 1 || 5 |
+
+caminoMasCorto(m,5,1,Comunidad_4):
+	LARGO DEL CAMINO = 2
+		| 1 || 5 |
+
+caminoMasCorto(m,5,1,Comunidad_6):
+	LARGO DEL CAMINO = 2
+		| 1 || 5 |
+
+caminoMasCorto(m,5,1,Comunidad_7):
+	LARGO DEL CAMINO = 2
+		| 1 || 5 |
+
+caminoMasCorto(m,5,2,Comunidad_0):
+	LARGO DEL CAMINO = 2
+		| 2 || 5 |
+
+caminoMasCorto(m,5,2,Comunidad_1):
+	LARGO DEL CAMINO = 2
+		| 2 || 5 |
+
+caminoMasCorto(m,5,2,Comunidad_3):
+	LARGO DEL CAMINO = 2
+		| 2 || 5 |
+
+caminoMasCorto(m,5,2,Comunidad_4):
+	LARGO DEL CAMINO = 2
+		| 2 || 5 |
+
+caminoMasCorto(m,5,2,Comunidad_6):
+	LARGO DEL CAMINO = 2
+		| 2 || 5 |
+
+caminoMasCorto(m,5,2,Comunidad_7):
+	LARGO DEL CAMINO = 2
+		| 2 || 5 |
+
+caminoMasCorto(m,5,3,Comunidad_0):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,5,3,Comunidad_1):
+	LARGO DEL CAMINO = 4
+		| 3 || 0 || 2 || 5 |
+
+caminoMasCorto(m,5,3,Comunidad_2):
+	LARGO DEL CAMINO = 4
+		| 3 || 0 || 1 || 5 |
+
+caminoMasCorto(m,5,3,Comunidad_4):
+	LARGO DEL CAMINO = 4
+		| 3 || 0 || 2 || 5 |
+
+caminoMasCorto(m,5,3,Comunidad_6):
+	LARGO DEL CAMINO = 4
+		| 3 || 0 || 2 || 5 |
+
+caminoMasCorto(m,5,3,Comunidad_7):
+	LARGO DEL CAMINO = 4
+		| 3 || 0 || 2 || 5 |
+
+caminoMasCorto(m,5,4,Comunidad_0):
+	LARGO DEL CAMINO = 2
+		| 4 || 5 |
+
+caminoMasCorto(m,5,4,Comunidad_1):
+	LARGO DEL CAMINO = 2
+		| 4 || 5 |
+
+caminoMasCorto(m,5,4,Comunidad_2):
+	LARGO DEL CAMINO = 2
+		| 4 || 5 |
+
+caminoMasCorto(m,5,4,Comunidad_3):
+	LARGO DEL CAMINO = 2
+		| 4 || 5 |
+
+caminoMasCorto(m,5,4,Comunidad_6):
+	LARGO DEL CAMINO = 2
+		| 4 || 5 |
+
+caminoMasCorto(m,5,4,Comunidad_7):
+	LARGO DEL CAMINO = 2
+		| 4 || 5 |
+
+caminoMasCorto(m,5,6,Comunidad_0):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,5,6,Comunidad_1):
+	LARGO DEL CAMINO = 5
+		| 6 || 3 || 0 || 2 || 5 |
+
+caminoMasCorto(m,5,6,Comunidad_2):
+	LARGO DEL CAMINO = 5
+		| 6 || 3 || 0 || 1 || 5 |
+
+caminoMasCorto(m,5,6,Comunidad_3):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,5,6,Comunidad_4):
+	LARGO DEL CAMINO = 5
+		| 6 || 3 || 0 || 2 || 5 |
+
+caminoMasCorto(m,5,6,Comunidad_7):
+	LARGO DEL CAMINO = 5
+		| 6 || 3 || 0 || 2 || 5 |
+
+caminoMasCorto(m,5,7,Comunidad_0):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,5,7,Comunidad_1):
+	LARGO DEL CAMINO = 5
+		| 7 || 3 || 0 || 2 || 5 |
+
+caminoMasCorto(m,5,7,Comunidad_2):
+	LARGO DEL CAMINO = 5
+		| 7 || 3 || 0 || 1 || 5 |
+
+caminoMasCorto(m,5,7,Comunidad_3):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,5,7,Comunidad_4):
+	LARGO DEL CAMINO = 5
+		| 7 || 3 || 0 || 2 || 5 |
+
+caminoMasCorto(m,5,7,Comunidad_6):
+	LARGO DEL CAMINO = 5
+		| 7 || 3 || 0 || 2 || 5 |
+
+caminoMasCorto(m,6,0,Comunidad_1):
+	LARGO DEL CAMINO = 3
+		| 0 || 3 || 6 |
+
+caminoMasCorto(m,6,0,Comunidad_2):
+	LARGO DEL CAMINO = 3
+		| 0 || 3 || 6 |
+
+caminoMasCorto(m,6,0,Comunidad_3):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,6,0,Comunidad_4):
+	LARGO DEL CAMINO = 3
+		| 0 || 3 || 6 |
+
+caminoMasCorto(m,6,0,Comunidad_5):
+	LARGO DEL CAMINO = 3
+		| 0 || 3 || 6 |
+
+caminoMasCorto(m,6,0,Comunidad_7):
+	LARGO DEL CAMINO = 3
+		| 0 || 3 || 6 |
+
+caminoMasCorto(m,6,1,Comunidad_0):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,6,1,Comunidad_2):
+	LARGO DEL CAMINO = 4
+		| 1 || 0 || 3 || 6 |
+
+caminoMasCorto(m,6,1,Comunidad_3):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,6,1,Comunidad_4):
+	LARGO DEL CAMINO = 4
+		| 1 || 0 || 3 || 6 |
+
+caminoMasCorto(m,6,1,Comunidad_5):
+	LARGO DEL CAMINO = 4
+		| 1 || 0 || 3 || 6 |
+
+caminoMasCorto(m,6,1,Comunidad_7):
+	LARGO DEL CAMINO = 4
+		| 1 || 0 || 3 || 6 |
+
+caminoMasCorto(m,6,2,Comunidad_0):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,6,2,Comunidad_1):
+	LARGO DEL CAMINO = 4
+		| 2 || 0 || 3 || 6 |
+
+caminoMasCorto(m,6,2,Comunidad_3):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,6,2,Comunidad_4):
+	LARGO DEL CAMINO = 4
+		| 2 || 0 || 3 || 6 |
+
+caminoMasCorto(m,6,2,Comunidad_5):
+	LARGO DEL CAMINO = 4
+		| 2 || 0 || 3 || 6 |
+
+caminoMasCorto(m,6,2,Comunidad_7):
+	LARGO DEL CAMINO = 4
+		| 2 || 0 || 3 || 6 |
+
+caminoMasCorto(m,6,3,Comunidad_0):
+	LARGO DEL CAMINO = 2
+		| 3 || 6 |
+
+caminoMasCorto(m,6,3,Comunidad_1):
+	LARGO DEL CAMINO = 2
+		| 3 || 6 |
+
+caminoMasCorto(m,6,3,Comunidad_2):
+	LARGO DEL CAMINO = 2
+		| 3 || 6 |
+
+caminoMasCorto(m,6,3,Comunidad_4):
+	LARGO DEL CAMINO = 2
+		| 3 || 6 |
+
+caminoMasCorto(m,6,3,Comunidad_5):
+	LARGO DEL CAMINO = 2
+		| 3 || 6 |
+
+caminoMasCorto(m,6,3,Comunidad_7):
+	LARGO DEL CAMINO = 2
+		| 3 || 6 |
+
+caminoMasCorto(m,6,4,Comunidad_0):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,6,4,Comunidad_1):
+	LARGO DEL CAMINO = 6
+		| 4 || 5 || 2 || 0 || 3 || 6 |
+
+caminoMasCorto(m,6,4,Comunidad_2):
+	LARGO DEL CAMINO = 5
+		| 4 || 1 || 0 || 3 || 6 |
+
+caminoMasCorto(m,6,4,Comunidad_3):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,6,4,Comunidad_5):
+	LARGO DEL CAMINO = 5
+		| 4 || 1 || 0 || 3 || 6 |
+
+caminoMasCorto(m,6,4,Comunidad_7):
+	LARGO DEL CAMINO = 5
+		| 4 || 1 || 0 || 3 || 6 |
+
+caminoMasCorto(m,6,5,Comunidad_0):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,6,5,Comunidad_1):
+	LARGO DEL CAMINO = 5
+		| 5 || 2 || 0 || 3 || 6 |
+
+caminoMasCorto(m,6,5,Comunidad_2):
+	LARGO DEL CAMINO = 5
+		| 5 || 1 || 0 || 3 || 6 |
+
+caminoMasCorto(m,6,5,Comunidad_3):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,6,5,Comunidad_4):
+	LARGO DEL CAMINO = 5
+		| 5 || 2 || 0 || 3 || 6 |
+
+caminoMasCorto(m,6,5,Comunidad_7):
+	LARGO DEL CAMINO = 5
+		| 5 || 2 || 0 || 3 || 6 |
+
+caminoMasCorto(m,6,7,Comunidad_0):
+	LARGO DEL CAMINO = 2
+		| 7 || 6 |
+
+caminoMasCorto(m,6,7,Comunidad_1):
+	LARGO DEL CAMINO = 2
+		| 7 || 6 |
+
+caminoMasCorto(m,6,7,Comunidad_2):
+	LARGO DEL CAMINO = 2
+		| 7 || 6 |
+
+caminoMasCorto(m,6,7,Comunidad_3):
+	LARGO DEL CAMINO = 2
+		| 7 || 6 |
+
+caminoMasCorto(m,6,7,Comunidad_4):
+	LARGO DEL CAMINO = 2
+		| 7 || 6 |
+
+caminoMasCorto(m,6,7,Comunidad_5):
+	LARGO DEL CAMINO = 2
+		| 7 || 6 |
+
+caminoMasCorto(m,7,0,Comunidad_1):
+	LARGO DEL CAMINO = 3
+		| 0 || 3 || 7 |
+
+caminoMasCorto(m,7,0,Comunidad_2):
+	LARGO DEL CAMINO = 3
+		| 0 || 3 || 7 |
+
+caminoMasCorto(m,7,0,Comunidad_3):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,7,0,Comunidad_4):
+	LARGO DEL CAMINO = 3
+		| 0 || 3 || 7 |
+
+caminoMasCorto(m,7,0,Comunidad_5):
+	LARGO DEL CAMINO = 3
+		| 0 || 3 || 7 |
+
+caminoMasCorto(m,7,0,Comunidad_6):
+	LARGO DEL CAMINO = 3
+		| 0 || 3 || 7 |
+
+caminoMasCorto(m,7,1,Comunidad_0):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,7,1,Comunidad_2):
+	LARGO DEL CAMINO = 4
+		| 1 || 0 || 3 || 7 |
+
+caminoMasCorto(m,7,1,Comunidad_3):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,7,1,Comunidad_4):
+	LARGO DEL CAMINO = 4
+		| 1 || 0 || 3 || 7 |
+
+caminoMasCorto(m,7,1,Comunidad_5):
+	LARGO DEL CAMINO = 4
+		| 1 || 0 || 3 || 7 |
+
+caminoMasCorto(m,7,1,Comunidad_6):
+	LARGO DEL CAMINO = 4
+		| 1 || 0 || 3 || 7 |
+
+caminoMasCorto(m,7,2,Comunidad_0):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,7,2,Comunidad_1):
+	LARGO DEL CAMINO = 4
+		| 2 || 0 || 3 || 7 |
+
+caminoMasCorto(m,7,2,Comunidad_3):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,7,2,Comunidad_4):
+	LARGO DEL CAMINO = 4
+		| 2 || 0 || 3 || 7 |
+
+caminoMasCorto(m,7,2,Comunidad_5):
+	LARGO DEL CAMINO = 4
+		| 2 || 0 || 3 || 7 |
+
+caminoMasCorto(m,7,2,Comunidad_6):
+	LARGO DEL CAMINO = 4
+		| 2 || 0 || 3 || 7 |
+
+caminoMasCorto(m,7,3,Comunidad_0):
+	LARGO DEL CAMINO = 2
+		| 3 || 7 |
+
+caminoMasCorto(m,7,3,Comunidad_1):
+	LARGO DEL CAMINO = 2
+		| 3 || 7 |
+
+caminoMasCorto(m,7,3,Comunidad_2):
+	LARGO DEL CAMINO = 2
+		| 3 || 7 |
+
+caminoMasCorto(m,7,3,Comunidad_4):
+	LARGO DEL CAMINO = 2
+		| 3 || 7 |
+
+caminoMasCorto(m,7,3,Comunidad_5):
+	LARGO DEL CAMINO = 2
+		| 3 || 7 |
+
+caminoMasCorto(m,7,3,Comunidad_6):
+	LARGO DEL CAMINO = 2
+		| 3 || 7 |
+
+caminoMasCorto(m,7,4,Comunidad_0):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,7,4,Comunidad_1):
+	LARGO DEL CAMINO = 6
+		| 4 || 5 || 2 || 0 || 3 || 7 |
+
+caminoMasCorto(m,7,4,Comunidad_2):
+	LARGO DEL CAMINO = 5
+		| 4 || 1 || 0 || 3 || 7 |
+
+caminoMasCorto(m,7,4,Comunidad_3):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,7,4,Comunidad_5):
+	LARGO DEL CAMINO = 5
+		| 4 || 1 || 0 || 3 || 7 |
+
+caminoMasCorto(m,7,4,Comunidad_6):
+	LARGO DEL CAMINO = 5
+		| 4 || 1 || 0 || 3 || 7 |
+
+caminoMasCorto(m,7,5,Comunidad_0):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,7,5,Comunidad_1):
+	LARGO DEL CAMINO = 5
+		| 5 || 2 || 0 || 3 || 7 |
+
+caminoMasCorto(m,7,5,Comunidad_2):
+	LARGO DEL CAMINO = 5
+		| 5 || 1 || 0 || 3 || 7 |
+
+caminoMasCorto(m,7,5,Comunidad_3):
+	LARGO DEL CAMINO = 0
+		NO HAY CAMINO
+
+
+caminoMasCorto(m,7,5,Comunidad_4):
+	LARGO DEL CAMINO = 5
+		| 5 || 2 || 0 || 3 || 7 |
+
+caminoMasCorto(m,7,5,Comunidad_6):
+	LARGO DEL CAMINO = 5
+		| 5 || 2 || 0 || 3 || 7 |
+
+caminoMasCorto(m,7,6,Comunidad_0):
+	LARGO DEL CAMINO = 2
+		| 6 || 7 |
+
+caminoMasCorto(m,7,6,Comunidad_1):
+	LARGO DEL CAMINO = 2
+		| 6 || 7 |
+
+caminoMasCorto(m,7,6,Comunidad_2):
+	LARGO DEL CAMINO = 2
+		| 6 || 7 |
+
+caminoMasCorto(m,7,6,Comunidad_3):
+	LARGO DEL CAMINO = 2
+		| 6 || 7 |
+
+caminoMasCorto(m,7,6,Comunidad_4):
+	LARGO DEL CAMINO = 2
+		| 6 || 7 |
+
+caminoMasCorto(m,7,6,Comunidad_5):
+	LARGO DEL CAMINO = 2
+		| 6 || 7 |
+
+
+--------------------------------------------------------
+MEDIADOR ENTRE Comunidad_0 y Comunidad_1: NO_HAY_MEDIADOR
+MEDIADOR ENTRE Comunidad_0 y Comunidad_2: NO_HAY_MEDIADOR
+MEDIADOR ENTRE Comunidad_0 y Comunidad_3: NO_HAY_MEDIADOR
+MEDIADOR ENTRE Comunidad_0 y Comunidad_4: NO_HAY_MEDIADOR
+MEDIADOR ENTRE Comunidad_0 y Comunidad_5: NO_HAY_MEDIADOR
+MEDIADOR ENTRE Comunidad_0 y Comunidad_6: 3
+MEDIADOR ENTRE Comunidad_0 y Comunidad_7: 3
+MEDIADOR ENTRE Comunidad_1 y Comunidad_0: NO_HAY_MEDIADOR
+MEDIADOR ENTRE Comunidad_1 y Comunidad_2: NO_HAY_MEDIADOR
+MEDIADOR ENTRE Comunidad_1 y Comunidad_3: 0
+MEDIADOR ENTRE Comunidad_1 y Comunidad_4: NO_HAY_MEDIADOR
+MEDIADOR ENTRE Comunidad_1 y Comunidad_5: NO_HAY_MEDIADOR
+MEDIADOR ENTRE Comunidad_1 y Comunidad_6: 0
+MEDIADOR ENTRE Comunidad_1 y Comunidad_7: 0
+MEDIADOR ENTRE Comunidad_2 y Comunidad_0: NO_HAY_MEDIADOR
+MEDIADOR ENTRE Comunidad_2 y Comunidad_1: NO_HAY_MEDIADOR
+MEDIADOR ENTRE Comunidad_2 y Comunidad_3: 0
+MEDIADOR ENTRE Comunidad_2 y Comunidad_4: NO_HAY_MEDIADOR
+MEDIADOR ENTRE Comunidad_2 y Comunidad_5: NO_HAY_MEDIADOR
+MEDIADOR ENTRE Comunidad_2 y Comunidad_6: 0
+MEDIADOR ENTRE Comunidad_2 y Comunidad_7: 0
+MEDIADOR ENTRE Comunidad_3 y Comunidad_0: NO_HAY_MEDIADOR
+MEDIADOR ENTRE Comunidad_3 y Comunidad_1: 0
+MEDIADOR ENTRE Comunidad_3 y Comunidad_2: 0
+MEDIADOR ENTRE Comunidad_3 y Comunidad_4: 0
+MEDIADOR ENTRE Comunidad_3 y Comunidad_5: 0
+MEDIADOR ENTRE Comunidad_3 y Comunidad_6: NO_HAY_MEDIADOR
+MEDIADOR ENTRE Comunidad_3 y Comunidad_7: NO_HAY_MEDIADOR
+MEDIADOR ENTRE Comunidad_4 y Comunidad_0: NO_HAY_MEDIADOR
+MEDIADOR ENTRE Comunidad_4 y Comunidad_1: NO_HAY_MEDIADOR
+MEDIADOR ENTRE Comunidad_4 y Comunidad_2: NO_HAY_MEDIADOR
+MEDIADOR ENTRE Comunidad_4 y Comunidad_3: 0
+MEDIADOR ENTRE Comunidad_4 y Comunidad_5: NO_HAY_MEDIADOR
+MEDIADOR ENTRE Comunidad_4 y Comunidad_6: 0
+MEDIADOR ENTRE Comunidad_4 y Comunidad_7: 0
+MEDIADOR ENTRE Comunidad_5 y Comunidad_0: NO_HAY_MEDIADOR
+MEDIADOR ENTRE Comunidad_5 y Comunidad_1: NO_HAY_MEDIADOR
+MEDIADOR ENTRE Comunidad_5 y Comunidad_2: NO_HAY_MEDIADOR
+MEDIADOR ENTRE Comunidad_5 y Comunidad_3: 0
+MEDIADOR ENTRE Comunidad_5 y Comunidad_4: NO_HAY_MEDIADOR
+MEDIADOR ENTRE Comunidad_5 y Comunidad_6: 0
+MEDIADOR ENTRE Comunidad_5 y Comunidad_7: 0
+MEDIADOR ENTRE Comunidad_6 y Comunidad_0: 3
+MEDIADOR ENTRE Comunidad_6 y Comunidad_1: 0
+MEDIADOR ENTRE Comunidad_6 y Comunidad_2: 0
+MEDIADOR ENTRE Comunidad_6 y Comunidad_3: NO_HAY_MEDIADOR
+MEDIADOR ENTRE Comunidad_6 y Comunidad_4: 0
+MEDIADOR ENTRE Comunidad_6 y Comunidad_5: 0
+MEDIADOR ENTRE Comunidad_6 y Comunidad_7: NO_HAY_MEDIADOR
+MEDIADOR ENTRE Comunidad_7 y Comunidad_0: 3
+MEDIADOR ENTRE Comunidad_7 y Comunidad_1: 0
+MEDIADOR ENTRE Comunidad_7 y Comunidad_2: 0
+MEDIADOR ENTRE Comunidad_7 y Comunidad_3: NO_HAY_MEDIADOR
+MEDIADOR ENTRE Comunidad_7 y Comunidad_4: 0
+MEDIADOR ENTRE Comunidad_7 y Comunidad_5: 0
+MEDIADOR ENTRE Comunidad_7 y Comunidad_6: NO_HAY_MEDIADOR
+
+#####################

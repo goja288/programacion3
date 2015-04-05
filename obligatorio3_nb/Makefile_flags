@@ -1,0 +1,17 @@
+CC= g++
+WARNING = -Wall -Werror
+LIB=
+
+todo: main
+
+Estructura.o:	Estructura.cpp Estructura.h 
+	$(CC) -c Estructura.cpp $(WARNING)
+main.o: main.cpp Estructura.h
+	$(CC) -c main.cpp $(WARNING)
+main: main.o Estructura.o 
+	$(CC) main.o Estructura.o  -o main $(LIB)
+
+clean:
+	rm Estructura.o
+	rm main.o
+	rm main	

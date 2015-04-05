@@ -1,0 +1,19 @@
+tarea3.cpp es un procesador de comandos que usa Estructura.
+Los comandos posibles son las operaciones de Estructura.h
+(excepto crearCOI y destruirCOI) además de 'salir' y 'stress'.
+
+'salir' destruye la estructura y termina el programa.
+'stress' destruye la estructura que hubiese, y ejecuta un ciclo en el que en 
+ cada iteración crea, carga y destruye una estructura, 
+ y finalmente termina el programa.
+
+Se asume que los parámetros de los comandos se ingresan correctamente.
+Si un parámetro es un texto que contiene espacios en blanco, 
+entonces debe estar encerrado entre comillas (ej: "Juan Alberto").
+
+El comando 'obtenerCantidadPaises' imprime la cantidad y un "\n".
+El comando 'existeCampeonatoFederacion' imprime "Existe" o "No existe" y "\n".
+El comando 'imprimirFederados' imprime el resultado de esa operación entre 
+las líneas "---Federados---" y "------". El orden en que se imprimen 
+los deportistas federados no tiene por que ser el mismo que el de los ejemplos
+suministrados.  
